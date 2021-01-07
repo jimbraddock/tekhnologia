@@ -12,14 +12,14 @@ body {
   -o-background-size: cover;
 }
 @media screen and (max-width: 1280px) {
-  .body {
+  .jumbotron {
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
 }
 @media screen and (min-width: 1024px) {
-  .body {
+  .jumbotron {
     max-width: 100%;
   }
 }
