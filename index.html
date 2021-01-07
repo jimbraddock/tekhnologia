@@ -2,192 +2,171 @@
 
 <html lang="en">
 
-    <head>
+   <head>
 
-    <!-- Meta tags -->
+      <!-- Meta tags -->
 
-    <meta charset="utf-8" />
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+      <meta charset="utf-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
 
-    <!-- Bootstrap CSS -->
+      <!-- Bootstrap CSS -->
 
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-        crossorigin="anonymous"
-    />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+         crossorigin="anonymous"
+      />
 
-    <!-- Font Awesome CSS-->
+      <!-- Font Awesome CSS-->
 
-    <link 
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-        crossorigin="anonymous"
-    />
+      <link 
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+         crossorigin="anonymous"
+      />
 
-    <!-- Tekhnologia, LLC CSS -->
+      <!-- Tekhnologia, LLC CSS -->
 
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Tekhnologia, LLC.</title>
+      <link rel="stylesheet" href="css/main.css" />
+      <title>Tekhnologia, LLC.</title>
+      
+   </head>
 
-    </head>
+   <body>
 
-    <body>
-
-    <div 
-        style="height: 100vh;">
+      <div 
+         style="height: 100vh;">
             <nav 
-                class="navbar navbar-expand-lg sticky-top" 
-                style="background: none;">
+               class="navbar navbar-expand-lg sticky-top justify-content-end" 
+               style="background: none;">
 
-    <!-- Collapse Navbar -->
+         <!-- Mobile Menu Button (Hamburger) -->
 
-    <button 
-        class="navbar-toggler btn-dark" 
-        type="button" 
-        data-toggle="collapse" 
-        data-target="#navbarSupportedContent20"
-        aria-controls="navbarSupportedContent20" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation"
-        >
-        <span 
-            class="fas fa-bars"
-            >
-        </span>
-    </button>
+         <button 
+            class="navbar-toggler first-button" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupportedContent20"
+            aria-controls="navbarSupportedContent20" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
+         </button>
 
-    <!-- Collapse content -->
-    <div 
-        class="collapse navbar-collapse" 
-        id="navbarSupportedContent20">
+         <!-- Desktop Content (Hidden on Mobile) -->
 
-    <!-- Site Links -->
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a 
-                class="nav-link" 
-                href="locations/dispensaries.html"> <span 
-                class="sr-only">(current)</span>
-            </a>
-        </li>
-        </li>
-            <li class="nav-item dropdown">
-                <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >
-                    Products
-                </a>
-                <div
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                    >
-                    <a
-                        class="dropdown-item"
-                        href="cannabis_flowers/flowers.html"
-                        >Cannabis Flowers
-                    </a>
-                    <a 
-                        class="dropdown-item" 
-                        href="vape_sticks/vape.html"
-                        >Vape Sticks
-                    </a>
-                    <a
-                        class="dropdown-item"
-                        href="cbd/oils.html"
-                        >
-                        CBD Oil
-                    </a>
-                </div>
-            </li>
-            <li 
-                class="nav-item">
-                <a
-                    class="nav-link"
-                    href="https://www.facebook.com/braddockfitnessllc/"
-                    target="_blank"
-                    >
-                    <i 
-                    class="fab fa-facebook-square">
-                    </i>
-                    Facebook
-                </a>
-            </li>
-            <li 
-                class="nav-item">
-                <a
-                    class="nav-link"
-                    href="https://www.instagram.com/braddock_fitness/"
-                    target="_blank"
-                    >
-                    <i 
-                    class="fab fa-instagram">
-                    </i>
-                    Instagram
-                </a>
-            </li>
-        </ul>
-    </nav>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent20">
 
-    <!-- Collapse Navbar -->
+         <!-- Site Links -->
 
-    <!-- Tekhnologia Jumbotron Image -->
-    <div 
-        class="jumbotron jumbotron-fluid" 
-        style="background: none;">
+         <ul class="navbar-nav mb-2 mb-lg-0">
+
+         <!-- About Us Dropdown -->
+
+         <li class="nav-item dropdown">
+         <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="aboutDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+         >
+            About
+         </a>
+         <div class="dropdown-menu bg-transparent" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item text-white" href="/trainingStaff/instructors.html">Meet the Team</a>
+            <a class="dropdown-item text-white" href="/program/programming.html">Our Programs</a>
+         </div>     
+         </li>
+
+         <!-- Contact Us -->
+
+         <li class="nav-item dropdown">
+         <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="contactDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+         >
+            Contact
+         </a>
+         <div 
+            class="dropdown-menu bg-transparent" 
+            aria-labelledby="contactDropdown">
+               <a 
+                  class="dropdown-item text-white" 
+                  href="https://www.instagram.com/braddock_fitness/" 
+                  target="_blank">
+                  <i class="fab fa-instagram">
+                  </i> Instagram
+               </a>
+         </div>
+      </li>
+   </ul>
+
+         <!-- End Site Links -->
+
+         </div>
+
+         <!-- End Desktop Content -->
+
+      </nav>
+
+         <!-- End Navbar -->
+
+         <!-- Tekhnologia Jumbotron Image -->
+      <div 
+         class="jumbotron jumbotron-fluid" 
+         style="background: none;">
             <div 
-                class="container" 
-                style="height: 100%;">
+               class="container" 
+               style="height: 100%;">
             </div>
-    </div>
+      </div>
 
+         <!-- Tekhnologia, LLC JS -->
 
+      <script 
+         type="text/javascript" 
+         src="js/main.js"
+         >
+      </script>     
 
+      <!-- Bootstrap JS -->
 
-    <!-- Tekhnologia, LLC JS -->
+      <script
+         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+         crossorigin="anonymous"
+      ></script>
 
-    <script 
-        type="text/javascript" 
-        src="js/main.js"
-        >
-    </script>     
+      <!-- Font Awesome JS -->
 
-    <!-- Bootstrap JS -->
+      <script 
+         src="https://kit.fontawesome.com/26512c9c11.js" 
+         crossorigin="anonymous"
+         >
+      </script>
 
-    <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"
-    ></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"
-    ></script>
-    <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"
-    ></script>
-
-    <!-- Font Awesome JS -->
-
-    <script 
-        src="https://kit.fontawesome.com/26512c9c11.js" 
-        crossorigin="anonymous"
-        >
-    </script>
-
-    </body>
+   </body>
 </html>
