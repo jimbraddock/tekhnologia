@@ -24,6 +24,17 @@
   color:#0e6efd;
 }
 /* Overlay Text on Image Ends */
+/* Navbar */
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-link {
+  margin-left: 15px;
+}
+/* Navbar Ends */
+
 
 
 
