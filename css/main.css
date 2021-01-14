@@ -1,11 +1,12 @@
 /* Jumbotron */
 .c-jumbotron {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
-    background-image: url('/images/homepage.png');
+    background-image:linear-gradient(
+      rgba(255,255,255,0.8)
+      ,rgba(255,255,255,0.8)),
+      url('/images/homepage.png');
     background-size: 100% 100%;
     background-position: center;
-    opacity: 0.3;
     color: orange
 }
 /* Jumbtron Ends */
@@ -13,16 +14,14 @@
 .container {
   display:block;
   justify-content: left;
-  font-size: 400%;
   position: relative;
   top:30%;
 }
-.btn {
+.c-btn {
   color: orange;
   justify-content: left;
   position: relative;
   outline: orange;
-  margin-right: 15px;
 }
 /* Overlay Text on Image Ends */
 
