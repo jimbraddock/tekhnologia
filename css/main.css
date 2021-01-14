@@ -1,22 +1,20 @@
 /* Jumbotron */
-.p-5 {
+.c-jumbotron {
     height: 100vh;
     background-image: url('/images/homepage.png');
     background-size: 100% 100%;
     background-position: center;
     opacity: 0.3;
+    color: orange
 }
 /* Jumbtron Ends */
 /* Overlay Text on Image */
-.bg-light {
-  color: orange;
-}
 .container {
   display:block;
   justify-content: left;
   font-size: 400%;
   position: relative;
-  top:40%;
+  top:30%;
 }
 .btn {
   color: orange;
