@@ -7,7 +7,7 @@
       url('/images/homepage.png');
     background-size: 100% 100%;
     background-position: center;
-    color: orange
+    color: #0e6efd;
 }
 /* Jumbtron Ends */
 /* Overlay Text on Image */
@@ -18,10 +18,22 @@
   top:30%;
 }
 .c-btn {
-  color: orange;
   justify-content: left;
   position: relative;
-  outline: orange;
+  border-radius: 50px;
+  color:#0e6efd;
+}
+.tek-btn {
+  position: absolute;
+  bottom: -380px;
+  right:16px;
+  margin-right: 40px;
+  border-radius: 50px;
+  color:#0e6efd;
+}
+.tek-container {
+  position: relative;
+  text-align: center;
 }
 /* Overlay Text on Image Ends */
 
