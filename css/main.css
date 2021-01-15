@@ -1,13 +1,10 @@
 /* Jumbotron */
 .c-jumbotron {
     height: 100vh;
-    background-image:linear-gradient(
-      rgba(255,255,255,0.8)
-      ,rgba(255,255,255,0.8)),
-      url('/images/homepage.png');
+    background-image: url('/images/keyboard1.jpg');
     background-size: 100% 100%;
     background-position: center;
-    color: #0e6efd;
+    color: white;
 }
 /* Jumbtron Ends */
 /* Overlay Text on Image */
@@ -15,13 +12,14 @@
   display:block;
   justify-content: left;
   position: relative;
-  top:30%;
+  top:50%;
 }
 .c-btn {
   justify-content: left;
   position: relative;
   border-radius: 50px;
-  color:#0e6efd;
+  color:white;
+  font-weight: 500;
 }
 /* Overlay Text on Image Ends */
 /* Navbar */
@@ -34,6 +32,21 @@
   margin-left: 15px;
 }
 /* Navbar Ends */
+/* Background Color - Card Section */
+section.projects {
+  background-image:linear-gradient(
+  rgba(255,255,255,0.8)
+  ,rgba(255,255,255,0.8)),
+    url('/images/homepage.png');
+  background-size: 100% 100%;
+  background-position: center;
+}
+/* Background Color - Card Section Ends */
+
+
+
+
+
 
 
 
