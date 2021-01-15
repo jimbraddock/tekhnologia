@@ -43,6 +43,9 @@ section.projects {
   min-height: 100vh;
 }
 /* Background Color - Card Section Ends */
+.card {
+  margin-top: 72px;
+}
 
 
 
