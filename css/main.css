@@ -42,6 +42,28 @@ section.projects {
   background-position: center;
   min-height: 100vh;
 }
+.card-deck {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.btn-primary1 {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+.btn-primary1:hover {
+  color: #fff
+}
+.card-body {
+  display: flex;
+  flex-direction:column;
+}
+.btn {
+  margin-top: auto;
+  border-radius: .5rem;
+}
 /* Background Color - Card Section Ends */
 /* About Us Slider */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
@@ -188,3 +210,4 @@ body {
   }
 }
 /* About Us Slider Ends */
+
