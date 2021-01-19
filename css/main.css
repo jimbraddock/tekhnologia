@@ -1,3 +1,12 @@
+/* The Alignment & Padding for whole Site on h2 */
+h2{
+  text-align:center;
+  padding: 20px;
+}
+/* AU Container Color for Text on About Us Section */
+.au-container {
+  color: #999
+}
 /* Jumbotron */
 .c-jumbotron {
     height: 100vh;
@@ -362,14 +371,7 @@ body {
     padding: 10px;
 }
 /* Footer Ends */
-h2{
-  text-align:center;
-  padding: 20px;
-}
-.au-container {
- color: #999
-}
-/* Products Slider */
+/* Products Carousel */
 .section-padding{
 padding-top:1px;
 padding-bottom: 50px;
@@ -394,6 +396,6 @@ margin: 0 5px;
 .owl-dot.active {
 background-color: #ffffff !important;
 }
-/* Products Slider Ends */
+/* Products Carousel Ends */
 
 
