@@ -1,0 +1,114 @@
+.banner-text {
+    width: 100%;
+    position: absolute;
+    padding-right: 2rem;
+}
+
+.banner-text ul {
+    height: 5rem;
+    float: right;
+}
+
+.banner-text ul li {
+    display: inline-block;
+    padding: 4rem 1.5rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.banner-text h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    margin-top: 20%;
+    top: 40%;
+    left: 50%;
+}
+
+.animation-landingpage {
+    background: linear-gradient(to left, rgba(57,106,252,.8),rgba(41,72,255,.8));
+    width: 100%;
+    height: 100vh;
+}
+
+.box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgba(255,255,255,0.2);
+    animation: animate 20s linear infinite;
+    bottom: -15rem;
+}
+
+.box-area li:nth-child(1) {
+    left: 86%;
+    width: 8rem;
+    height: 8rem;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(2) {
+    left: 12%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+}
+
+.box-area li:nth-child(3) {
+    left: 70%;
+    width: 10rem;
+    height: 10rem;
+    animation-delay: 5.5s;
+}
+
+.box-area li:nth-child(4) {
+    left: 42%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+
+.box-area li:nth-child(5) {
+    left: 65%;
+    width: 4rem;
+    height: 4rem;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 10rem;
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(6) {
+    left: 15%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    animation-delay: 3.5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
