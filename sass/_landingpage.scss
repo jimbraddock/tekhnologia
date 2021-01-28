@@ -1,37 +1,59 @@
-.banner-text {
+.navigation {
     width: 100%;
     position: absolute;
-    padding-right: 2rem;
 }
 
-.banner-text ul {
+.navigation ul {
     height: 5rem;
     float: right;
 }
 
-.banner-text ul li {
-    display: inline-block;
+.navigation ul li {
+    display:inline-block;
     padding: 4rem 1.5rem;
     color: #fff;
     font-size: 2rem;
 }
 
-.banner-text h1 {
+.primary-heading {
     text-align: center;
     color: #fff;
     font-size: 5rem;
     margin-top: 20%;
-    top: 40%;
-    left: 50%;
+
+    &--main {
+        display: block;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: 1rem;
+
+        /*
+        @include respond(phone) {
+            letter-spacing: .5rem;
+            font-family: 3rem;
+        }*/
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .5rem;
+
+        /*
+            @include respond(phone) {
+            letter-spacing: .2rem;
+        }*/
+    }
 }
 
-.animation-landingpage {
+.landingpage {
     background: linear-gradient(to left, rgba(57,106,252,.8),rgba(41,72,255,.8));
     width: 100%;
     height: 100vh;
 }
 
-.box-area {
+.landing__area {
     position: absolute;
     top: 0;
     left: 0;
@@ -40,50 +62,53 @@
     overflow: hidden;
 }
 
-.box-area li {
+.landing__area li {
     position: absolute;
     display: block;
     list-style: none;
     width: 2.5rem;
     height: 2.5rem;
-    background: rgba(255,255,255,0.2);
+    background: #b8860b;
     animation: animate 20s linear infinite;
     bottom: -15rem;
 }
 
-.box-area li:nth-child(1) {
+.landing__area li:nth-child(1) {
     left: 86%;
     width: 8rem;
     height: 8rem;
     animation-delay: 0s;
+    background: #fff !important;
 }
 
-.box-area li:nth-child(2) {
+.landing__area li:nth-child(2) {
     left: 12%;
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
     animation-delay: 1.5s;
     animation-duration: 10s;
+    background: #fff !important;
 }
 
-.box-area li:nth-child(3) {
+.landing__area li:nth-child(3) {
     left: 70%;
     width: 10rem;
     height: 10rem;
     animation-delay: 5.5s;
 }
 
-.box-area li:nth-child(4) {
+.landing__area li:nth-child(4) {
     left: 42%;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     animation-delay: 0s;
     animation-duration: 15s;
+    background: #fff !important;
 }
 
-.box-area li:nth-child(5) {
+.landing__area li:nth-child(5) {
     left: 65%;
     width: 4rem;
     height: 4rem;
@@ -93,12 +118,13 @@
     animation-delay: 0s;
 }
 
-.box-area li:nth-child(6) {
+.landing__area li:nth-child(6) {
     left: 15%;
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     animation-delay: 3.5s;
+    color: gold;
 }
 
 @keyframes animate {
@@ -112,3 +138,7 @@
         opacity: 0;
     }
 }
+
+
+
+
