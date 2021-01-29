@@ -15,38 +15,6 @@
     font-size: 2rem;
 }
 
-.primary-heading {
-    text-align: center;
-    color: #fff;
-    font-size: 5rem;
-    margin-top: 20%;
-
-    &--main {
-        display: block;
-        font-size: 4rem;
-        font-weight: 400;
-        letter-spacing: 1rem;
-
-        /*
-        @include respond(phone) {
-            letter-spacing: .5rem;
-            font-family: 3rem;
-        }*/
-    }
-
-    &--sub {
-        display: block;
-        font-size: 2rem;
-        font-weight: 700;
-        letter-spacing: .5rem;
-
-        /*
-            @include respond(phone) {
-            letter-spacing: .2rem;
-        }*/
-    }
-}
-
 .landingpage {
     background: linear-gradient(to left, rgba(57,106,252,.8),rgba(41,72,255,.8));
     width: 100%;
@@ -70,7 +38,7 @@
     height: 2.5rem;
     background: #b8860b;
     animation: animate 20s linear infinite;
-    bottom: -15rem;
+    bottom: -15rem; 
 }
 
 .landing__area li:nth-child(1) {
@@ -127,17 +95,9 @@
     color: gold;
 }
 
-@keyframes animate {
-    0% {
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-    }
 
-    100% {
-        transform: translateY(-800px) rotate(360deg);
-        opacity: 0;
-    }
-}
+
+
 
 
 
